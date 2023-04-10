@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+
+<properties>
+<entry key="loginMember">SELECT * FROM MEMBER WHERE USER_ID = ? AND USER_PWD = ? </entry>
+<entry key="insertMember">INSERT INTO MEMBER VALUES (SEQ_UNO.NEXTVAL, ?, ? , ? , ? ,? , ?, ? , SYSDATE, SYSDATE, DEFAULT); </entry>
+</properties>
